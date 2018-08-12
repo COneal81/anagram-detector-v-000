@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(word)
-    @word.detect do |letter|lettersplit
+    @word.each do |letter|lettersplit
     end
   end
   
