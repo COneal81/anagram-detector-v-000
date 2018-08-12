@@ -6,12 +6,9 @@ class Anagram
     @word = word
   end
   
-  def match(word)
-    @word.each do |word|
-      key = word.split("").sort.join
-      result[key] || = []
-      result[key] << word
-    end
+  def match(word_array)
+    word_array.detect do |word|word.split("")
+    
   end
   
 end
