@@ -10,7 +10,7 @@ class Anagram
     @word.each do |word|
       key = word.split("").sort.join
       result[key] || = []
-      
+      result[key] << word
     end
   end
   
